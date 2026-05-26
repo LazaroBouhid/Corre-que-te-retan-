@@ -1,0 +1,537 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1779747964733459, "dur": 678712, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1779747964733672, "dur": 2741, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1779747964736414, "dur": 32100, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1779747964768591, "dur": 221306, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1779747964989899, "dur": 408912, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1779747965398813, "dur": 13358, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1779747965412592, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1779747964876876, "dur": 92635, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1779747964877670, "dur": 39479, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1779747964954316, "dur": 3705, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1779747964958024, "dur": 11480, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1779747964958563, "dur": 10287, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1779747964973214, "dur": 1013, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1779747964972468, "dur": 1779, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1779747965412667, "dur": 189, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1779747965037038, "dur":1225, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965038281, "dur":71, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1779747965038376, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1779747965038392, "dur":648, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1779747965039067, "dur":467, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965039535, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379220, "dur":332, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379552, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379561, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379563, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379569, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379570, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379575, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379576, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379582, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379584, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379590, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379591, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379596, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379597, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379602, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379604, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379608, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379609, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379615, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379616, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379620, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379622, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379627, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379628, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379633, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379634, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379639, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379640, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379644, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379646, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379651, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379652, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379656, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379673, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965379677, "dur":1268, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1779747965039317, "dur":240, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1779747965039557, "dur":3703, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1779747965043266, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1779747965043402, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1779747965057818, "dur":19224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1779747965077149, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1779747965077188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1779747965078086, "dur":4367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1779747965082469, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1779747965082486, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1779747965082491, "dur":4873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1779747965087381, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1779747965087398, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1779747965087436, "dur":5205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1779747965092664, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1779747965092682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1779747965092688, "dur":5395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1779747965098117, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1779747965098135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1779747965098142, "dur":10499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1779747965108652, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1779747965108726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1779747965108733, "dur":10672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1779747965119423, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1779747965119441, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1779747965119446, "dur":6679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1779747965126143, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1779747965126163, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1779747965126180, "dur":10828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1779747965137038, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1779747965137349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1779747965137359, "dur":6722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1779747965144104, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1779747965144129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1779747965144138, "dur":15213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1779747965159372, "dur":219841, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1779747965039336, "dur":229, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1779747965039566, "dur":3696, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1779747965043266, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1779747965043494, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1779747965069345, "dur":7961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1779747965077383, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1779747965077399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1779747965078298, "dur":4486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1779747965082802, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1779747965082871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1779747965082876, "dur":4903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1779747965087804, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1779747965087822, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1779747965087851, "dur":6426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1779747965094291, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1779747965094307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1779747965094313, "dur":7837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1779747965102165, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1779747965102185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1779747965102195, "dur":14017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1779747965116239, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1779747965116263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1779747965116274, "dur":7892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1779747965124187, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1779747965124206, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1779747965124215, "dur":13843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1779747965138082, "dur":2440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1779747965140528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1779747965140535, "dur":4094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1779747965144643, "dur":234568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1779747965039408, "dur":183, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1779747965039592, "dur":3682, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1779747965043274, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1779747965043447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1779747965068248, "dur":8972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1779747965077297, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1779747965077325, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1779747965078262, "dur":4836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1779747965083107, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1779747965083118, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1779747965083122, "dur":5393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1779747965088535, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1779747965088552, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1779747965088558, "dur":6882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1779747965095496, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1779747965095514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1779747965095520, "dur":8564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1779747965104100, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1779747965104144, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1779747965104150, "dur":16750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1779747965120918, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1779747965120938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1779747965120944, "dur":5444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1779747965126406, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1779747965126423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1779747965126463, "dur":14820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1779747965141298, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1779747965141316, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1779747965141323, "dur":20317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1779747965161655, "dur":217636, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1779747965039315, "dur":229, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1779747965039551, "dur":3703, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1779747965043266, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1779747965043272, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1779747965043328, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1779747965043335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1779747965043944, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1779747965045407, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1779747965045460, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1779747965045630, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1779747965046524, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1779747965046584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1779747965046728, "dur":1149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1779747965047928, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1779747965047974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1779747965047980, "dur":29149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1779747965077222, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1779747965077251, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1779747965078168, "dur":4490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1779747965082673, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1779747965082688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1779747965082694, "dur":4850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1779747965087562, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1779747965087581, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1779747965087586, "dur":7273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1779747965094932, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1779747965094951, "dur":106, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1779747965095064, "dur":8993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1779747965104074, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1779747965104093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1779747965104104, "dur":8927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1779747965113057, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1779747965113081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1779747965113092, "dur":9554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1779747965122666, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1779747965122687, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1779747965122695, "dur":16930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1779747965139646, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1779747965139661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1779747965139667, "dur":4650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1779747965144332, "dur":667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1779747965145004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1779747965145013, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1779747965146541, "dur":232669, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1779747965039484, "dur":121, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1779747965039605, "dur":3688, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1779747965043295, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1779747965043404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1779747965057896, "dur":18562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1779747965076562, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1779747965076627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1779747965077330, "dur":12306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1779747965089715, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1779747965089829, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1779747965089835, "dur":4838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1779747965094689, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1779747965095158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1779747965095186, "dur":11257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1779747965106466, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1779747965106488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1779747965106498, "dur":12415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1779747965118946, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1779747965118967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1779747965119393, "dur":6942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1779747965126354, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1779747965126373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1779747965126380, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1779747965129478, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1779747965129496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1779747965129504, "dur":5885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1779747965135416, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1779747965135443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1779747965135455, "dur":5852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1779747965141322, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1779747965141337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1779747965141343, "dur":18577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1779747965159938, "dur":219417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1779747965039403, "dur":181, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1779747965039584, "dur":3671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1779747965043267, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1779747965043387, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1779747965044809, "dur":678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1779747965045523, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1779747965045574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1779747965045578, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1779747965046530, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1779747965046573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1779747965046765, "dur":31762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1779747965078572, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1779747965078586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1779747965078590, "dur":4648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1779747965083249, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1779747965083286, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1779747965083289, "dur":5022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1779747965088328, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1779747965088346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1779747965088352, "dur":5777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1779747965094151, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1779747965094172, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1779747965094178, "dur":5460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1779747965099657, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1779747965099706, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1779747965099712, "dur":10630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1779747965110359, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1779747965110379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1779747965110386, "dur":10568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1779747965120992, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1779747965121018, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1779747965121023, "dur":6414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1779747965127455, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1779747965127472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1779747965127480, "dur":4723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1779747965132222, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1779747965132244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1779747965132254, "dur":37846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1779747965170121, "dur":209141, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1779747965039387, "dur":190, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1779747965039577, "dur":3683, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1779747965043265, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1779747965043475, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1779747965068758, "dur":8476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1779747965077320, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1779747965077350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1779747965078234, "dur":4643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1779747965082887, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1779747965082898, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1779747965082901, "dur":4806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1779747965087848, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1779747965087875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1779747965087881, "dur":4963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1779747965092860, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1779747965092878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1779747965092883, "dur":4737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1779747965097663, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1779747965097681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1779747965097689, "dur":6193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1779747965103902, "dur":273981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1779747965377888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1779747965377895, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1779747965379157, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1779747965379158, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1779747965039434, "dur":164, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1779747965039598, "dur":3682, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1779747965043287, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1779747965043412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1779747965063224, "dur":13803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1779747965077184, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1779747965077215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1779747965078143, "dur":4454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1779747965082613, "dur":207524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1779747965290143, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1779747965290153, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1779747965291179, "dur":88042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1779747965039507, "dur":103, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1779747965039610, "dur":3648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1779747965043279, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1779747965043477, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1779747965069071, "dur":8102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1779747965077247, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1779747965077271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1779747965078203, "dur":4561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1779747965082776, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1779747965082867, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1779747965082871, "dur":4682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1779747965087568, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1779747965087596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1779747965087603, "dur":5665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1779747965093309, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1779747965093331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1779747965093337, "dur":4618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1779747965097975, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1779747965097992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1779747965097999, "dur":8507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1779747965106521, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1779747965106538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1779747965106544, "dur":12356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1779747965118945, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1779747965118966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1779747965118976, "dur":5466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1779747965124465, "dur":66845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1779747965191317, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1779747965191333, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1779747965192570, "dur":186799, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1779747965039545, "dur":3, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1779747965039548, "dur":3715, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1779747965043266, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1779747965043494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1779747965077227, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1779747965078260, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1779747965078283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1779747965078407, "dur":4742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1779747965083164, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1779747965083184, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1779747965083190, "dur":4554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1779747965087758, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1779747965087777, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1779747965087783, "dur":5142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1779747965092938, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1779747965092993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1779747965092999, "dur":7112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1779747965100185, "dur":86800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1779747965186991, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1779747965187002, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1779747965188262, "dur":190986, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1779747965039626, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1779747965039627, "dur":3630, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1779747965043267, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1779747965043458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1779747965068628, "dur":8100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1779747965076858, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1779747965076895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1779747965078071, "dur":4460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1779747965082548, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1779747965082567, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1779747965082572, "dur":4999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1779747965087586, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1779747965087613, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1779747965087620, "dur":6983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1779747965094621, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1779747965094639, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1779747965094644, "dur":7913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1779747965102573, "dur":126985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1779747965229563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1779747965229572, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1779747965230652, "dur":148689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1779747965039675, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1779747965039675, "dur":3612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1779747965043288, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1779747965043409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1779747965063004, "dur":13567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1779747965076624, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1779747965076660, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1779747965077622, "dur":3302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1779747965080946, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1779747965080969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1779747965080978, "dur":4600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1779747965085613, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1779747965085646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1779747965085657, "dur":4481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1779747965090176, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1779747965090268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1779747965090302, "dur":7892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1779747965098208, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1779747965098255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1779747965098261, "dur":10271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1779747965108549, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1779747965108567, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1779747965108574, "dur":12781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1779747965121377, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1779747965121474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1779747965121482, "dur":16728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1779747965138235, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1779747965138258, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1779747965138265, "dur":5857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1779747965144144, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1779747965144162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1779747965144168, "dur":16213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1779747965160406, "dur":218918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1779747965039712, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1779747965039713, "dur":3579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1779747965043292, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1779747965043395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1779747965051379, "dur":25245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1779747965076815, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1779747965076850, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1779747965077909, "dur":3943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1779747965081869, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1779747965081890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1779747965081896, "dur":5054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1779747965086966, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1779747965086986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1779747965086992, "dur":5745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1779747965092964, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1779747965093076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1779747965093083, "dur":4949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1779747965098048, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1779747965098065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1779747965098071, "dur":11426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1779747965109527, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":13, "ts":1779747965109548, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1779747965109554, "dur":11625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":13, "ts":1779747965121201, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":13, "ts":1779747965121222, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1779747965121228, "dur":18216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":13, "ts":1779747965139462, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/level1.resS" }}
+,{ "pid":12345, "tid":13, "ts":1779747965139481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1779747965139487, "dur":4940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/level1.resS" }}
+,{ "pid":12345, "tid":13, "ts":1779747965144447, "dur":234765, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1779747965039751, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1779747965039751, "dur":3532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1779747965043284, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1779747965043421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1779747965063635, "dur":12937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1779747965076669, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1779747965076697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1779747965077840, "dur":3289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1779747965081143, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1779747965081160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1779747965081166, "dur":4815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1779747965086001, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1779747965086021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1779747965086027, "dur":3711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1779747965089754, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1779747965089773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1779747965089781, "dur":5788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1779747965095581, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1779747965095597, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1779747965095603, "dur":6209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1779747965101834, "dur":150597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1779747965252437, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1779747965252480, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1779747965253777, "dur":125524, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1779747965039789, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1779747965039790, "dur":3481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1779747965043274, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1779747965043391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1779747965051112, "dur":25631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1779747965076835, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1779747965076865, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1779747965077950, "dur":3920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1779747965081885, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1779747965081903, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1779747965081909, "dur":4864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1779747965086789, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1779747965086808, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1779747965086814, "dur":4710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1779747965091544, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1779747965091657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1779747965091666, "dur":3910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1779747965095589, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1779747965095610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1779747965095615, "dur":6248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1779747965101877, "dur":128892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1779747965230773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1779747965230779, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1779747965232042, "dur":147273, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1779747965039832, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1779747965039832, "dur":3432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1779747965043265, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1779747965043356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1779747965044823, "dur":697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1779747965045556, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":16, "ts":1779747965045590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1779747965045594, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":16, "ts":1779747965046602, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1779747965046643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1779747965046646, "dur":8964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1779747965055660, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan.exe" }}
+,{ "pid":12345, "tid":16, "ts":1779747965055675, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1779747965055679, "dur":21333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan.exe" }}
+,{ "pid":12345, "tid":16, "ts":1779747965077033, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1779747965077055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1779747965078077, "dur":4191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1779747965082285, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1779747965082301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1779747965082306, "dur":4687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1779747965087008, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1779747965087026, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1779747965087031, "dur":5549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1779747965092599, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1779747965092617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1779747965092624, "dur":6426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1779747965099067, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1779747965099085, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1779747965099092, "dur":9443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1779747965108553, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1779747965108571, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1779747965108577, "dur":12290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1779747965120890, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1779747965120914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1779747965120925, "dur":18143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1779747965139094, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1779747965139120, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1779747965139128, "dur":5193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mi Jueguito/game/Juego definitivo/Corre que te retan/Corre que te retan_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1779747965144336, "dur":234884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1779747965382275, "dur":1381, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1779747965412905, "dur": 624, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1779747965412581, "dur": 973, "ph": "X", "name": "Write chrome-trace events", "args": {} },
